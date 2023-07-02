@@ -1,0 +1,8 @@
+.filter {
+  position: absolute;
+  top: var(--spacing-sm);
+  left: var(--spacing-lg);
+  z-index: 1;
+  display: flex;
+  gap: var(--spacing-xs);
+}

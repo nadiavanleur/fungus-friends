@@ -21,7 +21,7 @@ export default function Map(props: Props) {
   }, [mushrooms]);
 
   return (
-    <MapContainer center={center} zoom={18} scrollWheelZoom={false} className={style.map}>
+    <MapContainer center={center} zoom={17} scrollWheelZoom={false} className={style.map}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
